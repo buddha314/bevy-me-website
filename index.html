@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bevy Multi-Viewport Website</title>
+    <link data-trunk rel="rust" />
+    <link data-trunk rel="css" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <p class="eyebrow">Bevy + Web</p>
+        <h1>Blend flat layout with multiple 3D viewports.</h1>
+        <p class="lede">
+          This starter keeps the page shell in HTML/CSS while Bevy drives the
+          3D scene inside a browser canvas.
+        </p>
+      </section>
+
+      <section class="viewport-section">
+        <div class="canvas-shell">
+          <canvas id="bevy-canvas"></canvas>
+          <div class="viewport-label left">Viewport A</div>
+          <div class="viewport-label right">Viewport B</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
