@@ -13,7 +13,6 @@ bevy = { version = "0.19.1", default-features = false, features = [
     "bevy_winit",
     "bevy_clipboard",
     "default_font",
-    "multi_threaded",
     "webgl2",
     "x11",
     "custom_cursor",
